@@ -45,7 +45,5 @@ body {
   font-size: 18px;
   margin: 20px;
   text-decoration: none;
-}
-.buttons :hover {
-  background-color: inherit;
+  
 }
