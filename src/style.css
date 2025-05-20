@@ -16,7 +16,7 @@ body {
   padding: 100px 20px 60px 20px;
   background-color: var(--default-background-colour);
 }
-.hero h1 {
+h1 {
   font-family: var(--heading-font-family);
   color: var(--primary-colour);
   font-size: 96px;
@@ -51,12 +51,40 @@ body {
   background-color: var(--quaternary-colour);
   transition: ease-in-out 500ms;
 }
+.about {
+  padding: 100px;
+  background-color: var(--default-background-colour);
+}
+
+.about p {
+  background-color: var(--secondary-colour);
+  border-radius: 5px;
+  padding: 40px;
+}
+.profile {
+  background-color: var(--tertiary-colour);
+  border-radius: 5px;
+  border: 1px solid var(--quaternary-colour);
+  text-decoration: none;
+}
+.profile:hover {
+  background-color: var(--quaternary-colour);
+  transition: ease-in-out 500ms;
+}
 @media (max-width: 900px) {
-  .hero h1 {
+  h1 {
     font-size: 60px;
   }
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about {
+    padding: 20px;
+    margin: auto;
+  }
+  .about p {
+    font-size: 12px;
+    padding: 20px;
   }
 }
