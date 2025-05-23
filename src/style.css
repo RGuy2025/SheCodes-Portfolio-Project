@@ -91,6 +91,17 @@ h1 {
   color: var(--quaternary-colour);
   transition: ease-in-out 500ms;
 }
+.navbar-brand {
+  font-size: 50px;
+}
+.navbar {
+  font-family: var(--menu-font-family);
+  font-size: 30px;
+}
+
+.collapse {
+  justify-content: end;
+}
 
 @media (max-width: 900px) {
   h1 {
