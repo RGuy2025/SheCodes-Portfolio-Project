@@ -79,6 +79,18 @@ h1 {
 .projects img {
   max-height: 50%;
 }
+.contact-me {
+  padding: 100px 20px 60px 20px;
+  background-color: var(--default-background-colour);
+}
+.contact-me a {
+  text-decoration: none;
+  color: var(--secondary-colour);
+}
+.contact-me a:hover {
+  color: var(--quaternary-colour);
+  transition: ease-in-out 500ms;
+}
 
 @media (max-width: 900px) {
   h1 {
