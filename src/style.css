@@ -79,6 +79,7 @@ h1 {
 .projects img {
   max-height: 50%;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
