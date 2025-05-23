@@ -76,6 +76,9 @@ h1 {
   font-size: 36px;
   padding-top: 100px;
 }
+.projects img {
+  max-height: 50%;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -91,5 +94,26 @@ h1 {
   .about p {
     font-size: 12px;
     padding: 20px;
+  }
+  .projects {
+    padding: 20px;
+    margin: auto;
+  }
+  .projects h2 {
+    font-size: 20px;
+  }
+  .project-details {
+    font-size: 10px;
+  }
+  .projects a {
+    line-height: 18px;
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+  .zelda {
+    margin-top: 15px;
+  }
+  .zelda p {
+    margin-top: 15px;
   }
 }
