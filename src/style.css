@@ -1,8 +1,8 @@
 :root {
   --primary-colour: #c72cdb;
   --secondary-colour: #db167f;
-  --tertiary-colour: #3bd4f3;
-  --quaternary-colour: #3d88b7;
+  --tertiary-colour: rgb(59, 212, 243);
+  --quaternary-colour: rgb(61, 136, 183);
   --default-font-family: "Poppins", sans-serif;
   --heading-font-family: "Playwrite NL", cursive;
   --menu-font-family: "Puppies Play", cursive;
@@ -102,6 +102,36 @@ h1 {
 
 .collapse {
   justify-content: end;
+}
+footer {
+  margin: 60px 100px;
+  background-color: var(--default-background-colour);
+  padding: 30px 0;
+  border-radius: 20px;
+}
+footer .email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--secondary-colour);
+}
+footer .email-link:hover {
+  color: var(--primary-colour);
+}
+.shecodes-icon {
+  width: 20px;
+  height: 20px;
+}
+footer .social-links a {
+  margin: 0 40px;
+  font-size: 20px;
+  background-color: rgb(61, 136, 183, 0.5);
+
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+footer .social-links a:hover {
+  background-color: rgb(59, 212, 243, 0.5);
 }
 
 @media (max-width: 900px) {
